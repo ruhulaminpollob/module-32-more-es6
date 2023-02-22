@@ -57,3 +57,4 @@ console.log(pollob);
 pollob.assignment('3rd March')
 const kashemSir=new teacher('kashemSir', 10.50);
 console.log(kashemSir);
+
