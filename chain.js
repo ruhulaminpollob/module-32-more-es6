@@ -16,3 +16,4 @@ const whoIsHamid={
 
 const roomSide=whoIsHamid.address[2].side;
 console.log(roomSide);
+
