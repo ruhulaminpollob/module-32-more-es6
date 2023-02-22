@@ -22,3 +22,8 @@ console.log(evenForLoop);
 return/get all the elements which are divisible by 10 using
 array.filter() method.
 */
+
+
+const randomArray=[33, 50, 79, 78, 90, 101, 30 ];
+const divisibleBy10=randomArray.filter(x=>x%10==-0);
+console.log(divisibleBy10);
