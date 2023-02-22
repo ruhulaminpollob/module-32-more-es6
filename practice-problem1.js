@@ -6,13 +6,13 @@ method. Hints: add one to any odd number and it will become an even
 number.
 */
 // map method
-const odd=[ 1, 3, 5, 7, 9 ];
-const evenMap=odd.map(x=>x+1);
+const odd = [1, 3, 5, 7, 9];
+const evenMap = odd.map(x => x + 1);
 console.log(evenMap);
 // for loop method
-const evenForLoop=[];
+const evenForLoop = [];
 for (const num of odd) {
-    evenForLoop.push(num+1);
+    evenForLoop.push(num + 1);
 }
 console.log(evenForLoop);
 
@@ -24,6 +24,15 @@ array.filter() method.
 */
 
 
-const randomArray=[33, 50, 79, 78, 90, 101, 30 ];
-const divisibleBy10=randomArray.filter(x=>x%10==-0);
+const randomArray = [33, 50, 79, 78, 90, 101, 30];
+const divisibleBy10 = randomArray.filter(x => x % 10 == -0);
 console.log(divisibleBy10);
+
+/*
+3. Now do the same task of question 2. But do this using array.find()
+method. Then compare the output of question 2 & question 3.
+
+*/
+
+const divide=randomArray.find(x=>x%10===0);
+console.log(divide);
