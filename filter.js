@@ -18,3 +18,7 @@ const mostValuable=devices.filter(x=>x.price>100000);
 const lessValuable=devices.filter(x=>x.price<20000);
 console.log(mostValuable);
 console.log(lessValuable);
+// filter in string array
+const friends=['abullea', 'babullea', 'mofijjea','fokijjea'];
+const firstLatter=friends.filter(x=>x.length>7);
+console.log(firstLatter);

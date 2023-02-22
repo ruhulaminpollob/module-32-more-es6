@@ -18,3 +18,11 @@ const price=phones.map(p=>p.price)
 console.log(price);
 const tax=price.map(t=>t/7);
 console.log(tax);
+
+// map in string array
+const friends=['abullea', 'babullea', 'mofijjea','fokijjea'];
+const firstLatter=friends.map(x=>x[0]);
+
+console.log(firstLatter);
+const friendsLength=friends.map(x=>x.length);
+console.log(friendsLength);
